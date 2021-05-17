@@ -1,0 +1,9 @@
+[submodule "NativeScript/ThirdParty/entt"]
+	path = NativeScript/ThirdParty/entt
+	url = https://github.com/skypjack/entt
+[submodule "NativeScript/ThirdParty/bullet3"]
+	path = NativeScript/ThirdParty/bullet3
+	url = https://github.com/bulletphysics/bullet3
+[submodule "NativeScript/ThirdParty/eigen"]
+	path = NativeScript/ThirdParty/eigen
+	url = https://gitlab.com/libeigen/eigen

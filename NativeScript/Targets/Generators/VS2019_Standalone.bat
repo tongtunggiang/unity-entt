@@ -1,0 +1,1 @@
+cmake -S ../.. -B ../VS2019 -G "Visual Studio 16 2019" -DCMAKE_CONFIGURATION_TYPES="Debug;Release;RelWithDebInfo;" -DEDITOR=ON -DBUILD_STANDALONE_SIMULATION=ON
