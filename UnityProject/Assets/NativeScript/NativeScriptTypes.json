@@ -1,0 +1,429 @@
+{
+  "Assemblies": [
+    "UNITY_DLLS/UnityEngine.dll",
+    "UNITY_DLLS/UnityEditor.dll",
+    "UNITY_PROJECT_LIB/Assembly-CSharp.dll"
+  ],
+  "Types": [
+    {
+      "Name": " System.IFormattable"
+    },
+    {
+      "Name": " System.IConvertible"
+    },
+    {
+      "Name": " System.IComparable"
+    },
+    {
+      "Name": "System.IEquatable`1",
+      "GenericParams": [
+        {
+          "Types": [
+            "System.Boolean"
+          ]
+        },
+        {
+          "Types": [
+            "System.Char"
+          ]
+        },
+        {
+          "Types": [
+            "System.SByte"
+          ]
+        },
+        {
+          "Types": [
+            "System.Byte"
+          ]
+        },
+        {
+          "Types": [
+            "System.Int16"
+          ]
+        },
+        {
+          "Types": [
+            "System.UInt16"
+          ]
+        },
+        {
+          "Types": [
+            "System.Int32"
+          ]
+        },
+        {
+          "Types": [
+            "System.UInt32"
+          ]
+        },
+        {
+          "Types": [
+            "System.Int64"
+          ]
+        },
+        {
+          "Types": [
+            "System.UInt64"
+          ]
+        },
+        {
+          "Types": [
+            "System.Single"
+          ]
+        },
+        {
+          "Types": [
+            "System.Double"
+          ]
+        },
+        {
+          "Types": [
+            "System.Decimal"
+          ]
+        },
+        {
+          "Types": [
+            "UnityEngine.Vector3"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "System.IComparable`1",
+      "GenericParams": [
+        {
+          "Types": [
+            "System.Boolean"
+          ]
+        },
+        {
+          "Types": [
+            "System.Char"
+          ]
+        },
+        {
+          "Types": [
+            "System.SByte"
+          ]
+        },
+        {
+          "Types": [
+            "System.Byte"
+          ]
+        },
+        {
+          "Types": [
+            "System.Int16"
+          ]
+        },
+        {
+          "Types": [
+            "System.UInt16"
+          ]
+        },
+        {
+          "Types": [
+            "System.Int32"
+          ]
+        },
+        {
+          "Types": [
+            "System.UInt32"
+          ]
+        },
+        {
+          "Types": [
+            "System.Int64"
+          ]
+        },
+        {
+          "Types": [
+            "System.UInt64"
+          ]
+        },
+        {
+          "Types": [
+            "System.Single"
+          ]
+        },
+        {
+          "Types": [
+            "System.Double"
+          ]
+        },
+        {
+          "Types": [
+            "System.Decimal"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": " System.Runtime.Serialization.IDeserializationCallback"
+    },
+    {
+      "Name": "System.Decimal",
+      "Constructors": [
+        {
+          "ParamTypes": [
+            "System.Double"
+          ]
+        },
+        {
+          "ParamTypes": [
+            "System.UInt64"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Vector3",
+      "Constructors": [
+        {
+          "ParamTypes": [
+            "System.Single",
+            "System.Single",
+            "System.Single"
+          ]
+        }
+      ],
+      "Methods": [
+        {
+          "Name": "x+y",
+          "ParamTypes": [
+            "UnityEngine.Vector3",
+            "UnityEngine.Vector3"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Object",
+      "Methods": [
+        {
+          "Name": "Instantiate",
+          "ParamTypes": [
+            "UnityEngine.Object"
+          ]
+        }
+      ],
+      "Properties": [
+        {
+          "Name": "name",
+          "Get": {},
+          "Set": {}
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Component",
+      "Properties": [
+        {
+          "Name": "transform",
+          "Get": {}
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Transform",
+      "Properties": [
+        {
+          "Name": "position",
+          "Get": {},
+          "Set": {
+            "Exceptions": [
+              "System.NullReferenceException"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "System.Collections.IEnumerator",
+      "Methods": [
+        {
+          "Name": "MoveNext",
+          "ParamTypes": []
+        }
+      ],
+      "Properties": [
+        {
+          "Name": "Current",
+          "Get": {},
+          "Set": {}
+        }
+      ]
+    },
+    {
+      "Name": "System.Runtime.Serialization.ISerializable"
+    },
+    {
+      "Name": "System.Runtime.InteropServices._Exception"
+    },
+    {
+      "Name": "UnityEngine.GameObject",
+      "Constructors": [
+        {
+          "ParamTypes": []
+        }
+      ],
+      "Methods": [
+        {
+          "Name": "AddComponent",
+          "ParamTypes": [],
+          "GenericParams": [
+            { "Types": [ "Native.BaseNativeScript" ] },
+            { "Types": [ "Native.BaseNativeEntityView" ] }
+          ]
+        },
+        {
+          "Name": "GetComponent",
+          "ParamTypes": [],
+          "GenericParams": [
+            { "Types": [ "Native.BaseNativeEntityView" ] }
+          ]
+        },
+        {
+          "Name": "CreatePrimitive",
+          "ParamTypes": [
+            "UnityEngine.PrimitiveType"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Debug",
+      "Methods": [
+        {
+          "Name": "Log",
+          "ParamTypes": [
+            "System.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Behaviour"
+    },
+    {
+      "Name": "UnityEngine.MonoBehaviour",
+      "Properties": [
+        {
+          "Name": "transform",
+          "Get": {},
+          "Set": {}
+        }
+      ]
+    },
+    {
+      "Name": "System.Exception",
+      "Constructors": [
+        {
+          "ParamTypes": [
+            "System.String"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "System.SystemException"
+    },
+    {
+      "Name": "System.NullReferenceException"
+    },
+    {
+      "Name": "UnityEngine.PrimitiveType"
+    },
+    {
+      "Name": "UnityEngine.Profiling.Profiler",
+      "Methods": [
+        {
+          "Name": "BeginSample",
+          "ParamTypes": [ "System.String" ]
+        },
+        {
+          "Name": "EndSample",
+          "ParamTypes": []
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Time",
+      "Properties": [
+        {
+          "Name": "deltaTime",
+          "Get": {},
+          "Set": {}
+        }
+      ]
+    },
+    {
+      "Name": "Native.EventHub",
+      "Constructors": [
+        {
+          "ParamTypes": [ ]
+        }
+      ],
+      "Methods": [
+        {
+          "Name": "InvokeEntityDestroyed",
+          "ParamTypes": [ "System.UInt32" ]
+        }
+      ]
+    },
+    {
+      "Name": "Native.AbstractBaseNativeScript",
+      "BaseTypes": [
+        {
+          "BaseName": "Native.BaseNativeScript",
+          "DerivedName": "Native.NativeScript"
+        }
+      ],
+      "Properties": [
+        {
+          "Name": "Events",
+          "Get": {}
+        }
+      ]
+    },
+    {
+      "Name": "Native.BaseNativeEntityView",
+      "Properties": [
+        {
+          "Name": "EntityRef",
+          "Get": {},
+          "Set": {}
+        }
+      ]
+    },
+    {
+      "Name": "UnityEngine.Resources",
+      "Methods": [
+        {
+          "Name": "Load",
+          "ParamTypes": [ "System.String" ],
+          "GenericParams": [
+            { "Types": [ "UnityEngine.GameObject" ] }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Native.UnityTypeHelpers",
+      "Methods": [
+        {
+          "Name": "Downcast",
+          "ParamTypes": [ "UnityEngine.Object" ],
+          "GenericParams": [
+            { "Types": [ "UnityEngine.GameObject" ] }
+          ]
+        }
+      ]
+    }
+  ],
+  "Arrays": [
+  ],
+  "Delegates": [
+  ]
+}

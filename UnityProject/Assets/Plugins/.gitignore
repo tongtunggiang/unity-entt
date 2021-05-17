@@ -1,0 +1,5 @@
+# Ignore VS debug symbol files
+*.ilk
+*.ilk.meta
+*.pdb
+*.pdb.meta
