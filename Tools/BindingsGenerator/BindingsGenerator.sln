@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingsGenerator", "BindingsGenerator.csproj", "{560A0C67-A572-42AC-8720-939D4C97B5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppParserLib", "CppParserLib\CppParserLib.csproj", "{A827DAF8-29FE-4730-9E5A-EAFCBC87EB11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560A0C67-A572-42AC-8720-939D4C97B5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560A0C67-A572-42AC-8720-939D4C97B5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560A0C67-A572-42AC-8720-939D4C97B5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560A0C67-A572-42AC-8720-939D4C97B5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A827DAF8-29FE-4730-9E5A-EAFCBC87EB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A827DAF8-29FE-4730-9E5A-EAFCBC87EB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A827DAF8-29FE-4730-9E5A-EAFCBC87EB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A827DAF8-29FE-4730-9E5A-EAFCBC87EB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C92DC27-39C8-442E-B432-5885DACC9C75}
+	EndGlobalSection
+EndGlobal
